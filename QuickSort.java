@@ -18,7 +18,7 @@ public class QuickSort
          int pivot = list.get(heigh);
          int i=low-1;
 
-         for(int j=low; j<heigh-1; j++)
+         for(int j=low; j<heigh; j++)
          {
             if(list.get(j) < pivot)
             {
